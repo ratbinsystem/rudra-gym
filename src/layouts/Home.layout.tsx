@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
-import Header from '../components/header';
-import Footer from '../components/footer';
+// import Header from '../components/header';
+// import Footer from '../components/footer';
 
 interface HomeLayoutProps {
     children: ReactNode;
@@ -9,9 +9,9 @@ interface HomeLayoutProps {
 export default function HomeLayout({ children }: HomeLayoutProps) {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             {children}
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }

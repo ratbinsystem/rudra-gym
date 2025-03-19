@@ -1,6 +1,6 @@
 import CopyRight from '../CopyRight';
 import Hero from '../hero';
-import PictureGradiant from '../picture-gradiant';
+// import PictureGradiant from '../picture-gradiant';
 import './style.css';
 import footerImage from '/images/footer.jpg';
 export default function Footer() {
