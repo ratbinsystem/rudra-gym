@@ -1,0 +1,190 @@
+/* Typography Settings */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    /* 16px by default */
+    line-height: 1.6;
+    /* 160% of font size for readability */
+    color: #333;
+    /* Neutral dark color */
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Georgia', serif;
+    /* Distinct font for headings */
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    color: #111;
+    /* Stronger color for headings */
+    text-wrap: balance;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    /* Link color */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    /* Hover state for links */
+}
+
+
+/* Font Sizes */
+.fs-1 {
+    font-size: 3rem;
+}
+
+/* Extra-large heading (48px) */
+.fs-2 {
+    font-size: 2.5rem;
+}
+
+/* Large heading (40px) */
+.fs-3 {
+    font-size: 2rem;
+}
+
+/* Medium heading (32px) */
+.fs-4 {
+    font-size: 1.5rem;
+}
+
+/* Small heading (24px) */
+.fs-5 {
+    font-size: 1.25rem;
+}
+
+/* Subheading (20px) */
+.fs-6 {
+    font-size: 1rem;
+}
+
+.fs-7 {
+    font-size: .75rem;
+}
+
+/* Default body text (16px) */
+.fs-small {
+    font-size: 0.875rem;
+}
+
+/* Small text (14px) */
+.fs-tiny {
+    font-size: 0.75rem;
+}
+
+/* Extra-small text (12px) */
+
+/* Font Weights */
+.fw-light {
+    font-weight: 300;
+}
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+/* Text Alignments */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* Text Styles */
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-muted {
+    color: var(--color-secondary);
+}
+
+/* Muted color */
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-danger {
+    color: #e74c3c;
+}
+
+.text-success {
+    color: #2ecc71;
+}
+
+.text-warning {
+    color: #f39c12;
+}
+
+.text-info {
+    color: #17a2b8;
+}
+
+
+/* Clamp for Dynamic Font Scaling */
+.heading {
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
+    /* Scales between 24px and 48px */
+}
+
+.text-body {
+    font-size: clamp(1rem, 1.2vw, 1.25rem);
+    /* Scales between 16px and 20px */
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
