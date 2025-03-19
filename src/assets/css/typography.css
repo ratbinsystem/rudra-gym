@@ -152,7 +152,9 @@ a:hover {
 .text-info {
     color: #17a2b8;
 }
-
+.text-white {
+    color: #fff;
+}
 
 /* Clamp for Dynamic Font Scaling */
 .heading {
